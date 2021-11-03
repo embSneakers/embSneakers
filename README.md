@@ -45,8 +45,14 @@ Figure 1. Illustration of the design embedding model.
 
 #### 3. Code Description
 ```
+sneaker_embedding_masked_three_heads.ipynb (see in embSneakers/code/ in the repository):
+- Since sneaker images cannot be provided, you cannot construct embeddings from the given codes.
+- Rather, please refer to the codes to understand how the embeddings are constructed in details.
 
-
+classification_and_regression.ipynb (see in embSneakers/code/ in the repository):
+- From the code, you can run classification and regression tasks by inputting the provided embedding datasets (three from our model, one from SOTA).
+- Kinds of inference tasks: 1) Classifications for Primary Category (8 classes), Consumer Type (5 classes), and Maximum Resale Premium (2 classes); 2) Regression for Maximum Resale Premium
+- Kinds of inference model: 1) Multinomial Logistic Regression; 2) XGBoost; 3) Multi-layered Perceptron (MLP, a Neural-net method)
 ```
 
 #### 4. Additional Result
