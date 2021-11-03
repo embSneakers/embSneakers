@@ -53,17 +53,17 @@ Figure 1. Illustration of the design embedding model.
 Below, we attach additional clustering results for the _combined embedding_, which were excluded from the manuscript due to page limit.
 
 <img src="./source/combined_emb.jpg" style="width: 500px; height:auto;">
-(a) K-means clustering result of the sneaker embedding for the combined attribute.
+(a) K-means clustering result of the sneaker embedding for the combined attribute.<br/>
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
 (b) Examples of sneaker products by cluster for the combined attribute.
 Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
 
 
-<img src="./source/trend_sdi.jpg" style="width: 90%; height:auto;">
+<img src="./source/trend_sdi.jpg">
 
 
 
-<\br>
+<br/>
 We will disclose our contact information once the review period of WWW 2022 is ended.
 
 <End of Document>
