@@ -14,8 +14,7 @@ Hi there 👋 This repository is for the paper _"Using Web Data to Reveal 22-Yea
 ```
 
 <img src="./source/sneaker_table.jpg">
-**Table 1. Basic statistics of the crawled data.
-**
+**Table 1. Basic statistics of the crawled data.**
 
 #### 2. Dataset Description
 ```
@@ -42,7 +41,7 @@ E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
 ```
 
 <img src="./source/sneaker_embedding.jpg">
-**Figure 1. Illustration of the design embedding model.**
+Figure 1. Illustration of the design embedding model.
 
 #### 3. Code Description
 ```
@@ -66,14 +65,14 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
 (b) Examples of sneaker products by cluster for the combined attribute.<br/>
-**Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.**
+Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
 <br/><br/>
 
 Below, attached please find the temporal sneaker design patterns by major five brands based on the three constructed embeddings.
 
 <img src="./source/trend_sdi.jpg">
-**Figure 3. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
-(the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.**
+Figure 3. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
+(the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 <br/><br/>
 
 We will disclose our contact information once the review period of WWW 2022 is ended.
