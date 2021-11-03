@@ -57,7 +57,7 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 <br/><br/>
 
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
-(b) Examples of sneaker products by cluster for the combined attribute.
+(b) Examples of sneaker products by cluster for the combined attribute.<br/>
 Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
 
 
