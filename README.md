@@ -1,6 +1,6 @@
 # The Sneakers Project
 
-This is the repository for the paper _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ submittted to the Web Conference 2022.
+This is the repository for the paper _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ submittted to **The Web Conference (WWW) 2022**.
 
 
 ### Data Description
@@ -8,22 +8,48 @@ This is the repository for the paper _"Using Web Data to Reveal 22-Year History 
 #### 1. Overview
 ```
 - We have crawled sneaker images and metadata from _StockX,_ a leading online resale shop at global scale.
-- 
+- Total number of sneaker products crawled: 23,492 (see Table 1 for basic statistics)
 - Due to the copyright issue, we cannot provide the original sneaker images.
-- For the 
-
-
-- Dataset pre-processed and refined: download rumorstance_response_clean.csv
-- Total number of sneaker products crawled: 23,492 (see below table for basic statistics)
+- We share the data for our embedding results, SOTA embedding, and various engineered feature along with the crawled metadata (see Section 2).
 ```
 
 <img src="./source/sneaker_table.jpg">
+Table 1. Basic statistics of the crawled data.
 
+#### 2. Dataset Description
+```
 
+df_512_mask_shape_210927.csv:
+- Constructed embedding for the latent shape-invariant representation (top module in Figure 1)
+- i.e., Color embedding
+
+df_512_mask_color_210927.csv:
+- Constructed embedding for the latent color-invariant representation (middle module in Figure 1)
+- i.e., Shape embedding
+
+df_512_mask_all_210927.csv:
+- Constructed embedding for the latent all-invariant representation (top module in Figure 1)
+- i.e., Combined embedding
+
+df_384_looc.csv:
+- Constructed embedding for the Leave-one-out Contrastive Learning (LooC)
+- We consider this one as SOTA and compare our model with this one (Xiao et al, ICLR 2021)
+
+total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
+- 
+- 
+```
 
 <img src="./source/sneaker_embedding.jpg">
+Figure 1. Illustration of the design embedding model.
+
+#### 3. Code Description
+```
 
 
+```
+
+We will disclose our contact information once the review period of WWW 2022 is ended.
 
 <end of document>
 
