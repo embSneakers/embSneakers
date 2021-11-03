@@ -59,10 +59,13 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
 (b) Examples of sneaker products by cluster for the combined attribute.<br/>
 Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
+<br/><br/>
 
+Below, attached please find the temporal sneaker design patterns by major seven brands based on the three constructed embeddings.
 
 <img src="./source/trend_sdi.jpg">
-
+Figure 3. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
+(the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 
 
 <br/>
