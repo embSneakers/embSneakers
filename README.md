@@ -54,7 +54,7 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 
 <img src="./source/combined_emb.jpg" style="width: 500px; height:auto;">
 (a) K-means clustering result of the sneaker embedding for the combined attribute.
-<br/>
+<br/><br/>
 
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
 (b) Examples of sneaker products by cluster for the combined attribute.
