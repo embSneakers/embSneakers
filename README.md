@@ -10,7 +10,7 @@ This is the repository for the paper _"Using Web Data to Reveal 22-Year History 
 - We have crawled sneaker images and metadata from _StockX,_ a leading online resale shop at global scale.
 - Total number of sneaker products crawled: 23,492 (see Table 1 for basic statistics)
 - Due to the copyright issue, we cannot provide the original sneaker images.
-- We share the data for our embedding results, SOTA embedding, and various engineered feature along with the crawled metadata [I'm an inline-style link with title](https://drive.google.com/drive/folders/1dYP4AFXGo_35-OS2yeRHeI4ZD_uFcPW_?usp=sharing "Data Link")
+- We share the data for our embedding results, SOTA embedding, and various engineered feature along with the crawled metadata [Data Link](https://drive.google.com/drive/folders/1dYP4AFXGo_35-OS2yeRHeI4ZD_uFcPW_?usp=sharing)
 - See Section 2 for the details of each dataset.
 ```
 
