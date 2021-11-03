@@ -19,24 +19,25 @@ Table 1. Basic statistics of the crawled data.
 #### 2. Dataset Description
 ```
 df_512_mask_shape_210927.csv:
-- Constructed embedding for the latent shape-invariant representation (top module in Figure 1)
-- i.e., Color embedding
+- Color embedding: Constructed embedding for the latent shape-invariant representation (top module in Figure 1)
+- Columns: 1) 0 ~ 511: 512 dimensional (D) embedding features; 2) 512: product ID; 513 ~ 612: 100D metadata features
 
 df_512_mask_color_210927.csv:
-- Constructed embedding for the latent color-invariant representation (middle module in Figure 1)
-- i.e., Shape embedding
+- Shape embedding: Constructed embedding for the latent color-invariant representation (middle module in Figure 1)
+- Columns: 1) 0 ~ 511: 512D embedding features; 2) 512: product ID; 513 ~ 612: 100D metadata features
 
 df_512_mask_all_210927.csv:
-- Constructed embedding for the latent all-invariant representation (top module in Figure 1)
-- i.e., Combined embedding
+- Combined embedding: Constructed embedding for the latent all-invariant representation (top module in Figure 1)
+- Columns: 1) 0 ~ 511: 512D embedding features; 2) 512: product ID; 513 ~ 612: 100D metadata features
 
 df_384_looc.csv:
 - Constructed embedding for the Leave-one-out Contrastive Learning (LooC)
 - We consider this one as SOTA and compare our model with this one (Xiao et al, ICLR 2021)
+- Columns: 1) 0 ~ 383: 384D embedding features; 2) 384: product ID; 385 ~ 484: 100D metadata features
 
 total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
-- 
-- 
+- Features from the feature engineering (see the manuscript for more detailed description)
+- Columns: 1) 0: product ID; 2) 1 ~ 12: 12D color distribution parameters (mean, std) for RGB, HSV; 3) 13 ~ 19: 7D color entropy features for RGB, HSV, Grayscale; 4) 20 ~ 24: 5D image segmentation features; 5) 25 ~ 408: 384D color histogram of 128 bins for RGB; 6) 409 ~ 508: 100D metadata features
 ```
 
 <img src="./source/sneaker_embedding.jpg">
