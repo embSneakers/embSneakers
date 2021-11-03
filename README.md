@@ -59,7 +59,7 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
 
 
-<img src="./source/trend_sdi.jpg" style="width: 500px; height:auto;">
+<img src="./source/trend_sdi.jpg" style="width: 90%; height:auto;">
 
 
 
