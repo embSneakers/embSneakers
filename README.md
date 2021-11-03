@@ -14,7 +14,7 @@ Hi there 👋 This repository is for the paper _"Using Web Data to Reveal 22-Yea
 ```
 
 <img src="./source/sneaker_table.jpg">
-**Table 1. Basic statistics of the crawled data.**
+Table 1. Basic statistics of the crawled data.
 
 #### 2. Dataset Description
 ```
