@@ -2,11 +2,12 @@
 
 This is the repository for the paper _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ submittted to **The Web Conference (WWW) 2022**.
 
-[Data Link](https://drive.google.com/drive/folders/1dYP4AFXGo_35-OS2yeRHeI4ZD_uFcPW_?usp=sharing)
 ### Data Description
 
 #### 1. Overview
 ```
+[Data Link](https://drive.google.com/drive/folders/1dYP4AFXGo_35-OS2yeRHeI4ZD_uFcPW_?usp=sharing)
+
 - We have crawled sneaker images and metadata from _StockX,_ a leading online resale shop at global scale.
 - Total number of sneaker products crawled: 23,492 (see Table 1 for basic statistics)
 - Due to the copyright issue, we cannot provide the original sneaker images.
