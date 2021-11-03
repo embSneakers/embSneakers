@@ -27,7 +27,7 @@ df_512_mask_color_210927.csv:
 - Columns: 1) 0 ~ 511: 512D embedding features; 2) 512: product ID; 3) 513 ~ 612: 100D metadata features
 
 df_512_mask_all_210927.csv:
-- Combined embedding: Constructed embedding for the latent all-invariant representation (top module in Figure 1)
+- Combined embedding: Constructed embedding for the latent all-invariant representation (bottom module in Figure 1)
 - Columns: 1) 0 ~ 511: 512D embedding features; 2) 512: product ID; 3) 513 ~ 612: 100D metadata features
 
 df_384_looc.csv:
