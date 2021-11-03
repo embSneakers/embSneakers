@@ -48,9 +48,22 @@ Figure 1. Illustration of the design embedding model.
 
 ```
 
+
+
+<img src="./source/combined_samples.pdf">
+
+
+
+
+
+
+
+
+
+
 We will disclose our contact information once the review period of WWW 2022 is ended.
 
-<end of document>
+< End of Document >
 
 
 <!--
