@@ -8,16 +8,20 @@ This is the repository for the paper _"Using Web Data to Reveal 22-Year History 
 #### 1. Overview
 ```
 - We have crawled sneaker images and metadata from _StockX,_ a leading online resale shop at global scale.
-- Due to the copyright issue, we cannot provide the 
+- 
+- Due to the copyright issue, we cannot provide the original sneaker images.
 - For the 
 
 
 - Dataset pre-processed and refined: download rumorstance_response_clean.csv
-- Total number of respondents (# of rows in the dataset): 11,145
+- Total number of sneaker products crawled: 23,492 (see below table for basic statistics)
 ```
 
 <img src="./source/sneaker_table.jpg">
 
+
+
+<img src="./source/sneaker_embedding.jpg">
 
 
 
