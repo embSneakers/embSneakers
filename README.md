@@ -66,9 +66,8 @@ Below, attached please find the temporal sneaker design patterns by major seven 
 <img src="./source/trend_sdi.jpg">
 Figure 3. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
 (the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
+<br/><br/>
 
-
-<br/>
 We will disclose our contact information once the review period of WWW 2022 is ended.
 
 <End of Document>
