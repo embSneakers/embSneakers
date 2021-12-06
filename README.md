@@ -72,7 +72,7 @@ B. classification_and_regression.ipynb (see in embSneakers/code/ in the reposito
 C. crawling_source.ipynb (see in embSneakers/code/ in the repository):
 - From the code, you can automatically download the sneaker images that have been sampled for the current work, via the links from the metadata: see the last column "imageUrl" in "val_sneakers_df.pkl"
 - i.e., One image per sneaker prodcut is downloaded and used in the current study.
-- You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section in used only for crawling from the scratch
+- You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section is used only when crawling from the scratch
 ```
 
 #### 4. Additional Results
