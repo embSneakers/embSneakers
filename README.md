@@ -44,7 +44,7 @@ F. val_sneakers_df.pkl:
 - Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on
 
 G. resale_transactions_ALL.csv:
-- Containing ALL resale transactions for the target sneaker products, from 2012Q2 to 2020Q3 (1.67GB)
+- Containing ALL resale transactions for the target sneaker products, from 2012Q2 to 2020Q3 (1.68GB)
 - Columns: 1) quarter_sold; 2) month_sold; 3) original_resalePrice; 4) inflated_resalePrice: we compute adjusted (inflated) retail or resale price by following the process described in Figure 2; 5) original_retailPrice; 6) inflated_retailPrice; 7) original_profit; 8) inflated_profit, 9) date_of_release: sneaker release date; 10) image_fileName: pid
 ```
 
