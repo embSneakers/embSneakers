@@ -98,9 +98,10 @@ Figure 4. Temporal sneaker design patterns by brand via the embeddings. (a) Colo
 <br/><br/>
 
 We will disclose our contact information once the review period of WWW 2022 is ended.
+<br>
 
 
-< End of Document >
+<End of Document>
 
 
 <!--
