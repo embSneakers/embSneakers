@@ -41,8 +41,8 @@ E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl (108.6MB):
 
 F. val_sneakers_df.pkl (42.8MB):
 - Metadata crawled from StockX.com
-- Share downloadable links for the sneaker image samples for the current study: see crawling_source.ipynb for automatically downloading the images via the links.
-- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on; 3) 101: downloadable links for the target sneaker images
+- Share downloadable links ("imageUrl") for the sneaker image samples of the current study: see "crawling_source.ipynb" for downloading the images via the links.
+- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on; 3) 101: imageUrl, downloadable links for the target sneaker images
 
 G. resale_transactions_ALL.csv (1.68GB):
 - Containing ALL resale transactions for the target sneaker products, from 2012Q2 to 2020Q3
@@ -68,6 +68,10 @@ B. classification_and_regression.ipynb (see in embSneakers/code/ in the reposito
 - From the code, you can run classification and regression tasks by inputting the provided embedding datasets (three from our model, one from SOTA).
 - Kinds of inference tasks: 1) Classifications for Primary Category (8 classes), Consumer Type (5 classes), and Maximum Resale Premium (2 classes); 2) Regression for Maximum Resale Premium
 - Kinds of inference model: 1) Multinomial Logistic Regression; 2) XGBoost; 3) Multi-layered Perceptron (MLP, a Neural-net method)
+
+C. crawling_source.ipynb (see in embSneakers/code/ in the repository):
+- From the code, you can automatically download sneaker images that have been sampled for the current work via the links from the metadata: see the last column "imageUrl" in "val_sneakers_df.pkl"
+- You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section in used only for crawling from the scratch
 ```
 
 #### 4. Additional Results
