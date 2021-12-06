@@ -51,7 +51,7 @@ G. resale_transactions_ALL.csv:
 <img src="./source/sneaker_embedding.jpg">
 Figure 1. Illustration of the design embedding model.
 
-<img src="./source/adjusted_price_process.jpg">
+<img src="./source/adjusted_price_process.JPG">
 Figure 2. Description of the computing process of adjusted retail or resale price.
 
 #### 3. Code Description
