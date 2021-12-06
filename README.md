@@ -42,10 +42,17 @@ E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
 F. val_sneakers_df.pkl:
 - Metadata crawled from StockX.com.
 - Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on
+
+G. resale_transactions_ALL.csv:
+- Containing ALL resale transactions for the target sneaker products, from 2012Q2 to 2020Q3 (1.67GB)
+- Columns: 1) quarter_sold; 2) month_sold; 3) original_resalePrice; 4) inflated_resalePrice: we compute adjusted (inflated) retail or resale price by following the process described in Figure 2; 5) original_retailPrice; 6) inflated_retailPrice; 7) original_profit; 8) inflated_profit, 9) date_of_release: sneaker release date; 10) image_fileName: pid
 ```
 
 <img src="./source/sneaker_embedding.jpg">
 Figure 1. Illustration of the design embedding model.
+
+<img src="./source/adjusted_price_process.jpg">
+Figure 2. Description of the computing process of adjusted retail or resale price.
 
 #### 3. Code Description
 ```
@@ -69,13 +76,13 @@ Below, we attach additional clustering results for the _combined embedding_, whi
 
 <img src="./source/combined_samples.jpg" style="width: 500px; height:auto;">
 (b) Examples of sneaker products by cluster for the combined attribute.<br/>
-Figure 2. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
+Figure 3. Centroids within clusters and their 15-nearest neighbors based on the combined embedding.
 <br/><br/>
 
 Below, attached please find the temporal sneaker design patterns by major five brands based on the three constructed embeddings.
 
 <img src="./source/trend_sdi.jpg">
-Figure 3. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
+Figure 4. Temporal sneaker design patterns by brand via the embeddings. (a) Color embedding with one standard error shadows
 (the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 <br/><br/>
 
