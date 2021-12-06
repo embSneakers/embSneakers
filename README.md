@@ -41,8 +41,8 @@ E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl (108.6MB):
 
 F. val_sneakers_df.pkl (42.8MB):
 - Metadata crawled from StockX.com
-- Share downloadable links ("imageUrl") for the sneaker image samples of the current study: see "crawling_source.ipynb" for downloading the images via the links.
-- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on; 3) 101: imageUrl, downloadable links for the target sneaker images
+- We share downloadable links ("imageUrl") for the sneaker image samples of the current study: see "crawling_source.ipynb" to download the images via the links.
+- Columns: 1) 0: pid (product ID), images can be distinguished by this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on; 3) 101: imageUrl, downloadable links for the target sneaker images
 
 G. resale_transactions_ALL.csv (1.68GB):
 - Containing ALL resale transactions for the target sneaker products, from 2012Q2 to 2020Q3
