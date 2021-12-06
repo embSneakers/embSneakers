@@ -11,6 +11,8 @@ Hi there 👋 This repository is for the paper _"Using Web Data to Reveal 22-Yea
 - Due to the copyright issue, we cannot provide the original sneaker images directly; instead, we share downloadable links as metadata.
 - We share the data for 1) our embedding results, 2) SOTA embedding, and 3) various engineered features along with 4) the crawled metadata containing image downloadable links and 5) the entire history of resale transactions for the sample sneaker products from 2012 to 2020.
 - See Section 2 for the details of each dataset provided via the link.
+- See Section 3 for the details of the codes to reproduce the research outcomes.
+- See section 4 for additional results not shown in the paper due to page limitations.
 ```
 
 <img src="./source/sneaker_table.jpg">
@@ -63,7 +65,7 @@ Figure 2. Description of the computing process of adjusted retail or resale pric
 A. crawling_source.ipynb (see in embSneakers/code/ in the repository):
 - From the code, you can automatically download the sneaker images that have been sampled for the current work, via the links from the metadata: see the last column "imageUrl" in "val_sneakers_df.pkl."
 - i.e., One image per sneaker product is downloaded and used in the current study.
-- You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section is used only when crawling from the scratch.
+- You only need to run "Crawling by imageUrl" part if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" part is used only when crawling from the scratch.
 
 B. sneaker_embedding_masked_three_heads.ipynb (see in embSneakers/code/ in the repository):
 - You need to download the sneaker image samples from A. first to construct embeddings from the given code.
