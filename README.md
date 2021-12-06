@@ -6,10 +6,10 @@ Hi there 👋 This repository is for the paper _"Using Web Data to Reveal 22-Yea
 
 #### 1. Overview
 ```
-- We have crawled sneaker images and metadata from StockX, a leading online resale shop at global scale.
+- We have crawled sneaker images and metadata from StockX (https://stockx.com/), a leading online resale shop at global scale.
 - Total number of sneaker products crawled: 23,492 (see Table 1 for basic statistics).
-- Due to the copyright issue, we cannot provide the original sneaker images. Visit the link to find sneaker images: https://stockx.com/.
-- We share the data for our embedding results, SOTA embedding, and various engineered feature along with the crawled metadata.
+- Due to the copyright issue, we cannot provide the original sneaker images directly; instead, we share downloadable links as metadata.
+- We share the data for our embedding results, SOTA embedding, and various engineered features along with the crawled metadata containing image downloadable links.
 - See Section 2 for the details of each dataset provided via the link.
 ```
 
@@ -60,19 +60,19 @@ Figure 2. Description of the computing process of adjusted retail or resale pric
 
 #### 3. Code Description
 ```
-A. sneaker_embedding_masked_three_heads.ipynb (see in embSneakers/code/ in the repository):
-- Since sneaker images cannot be provided, you cannot construct embeddings from the given codes.
-- Rather, please refer to the codes to understand how the embeddings are constructed in details.
-
-B. classification_and_regression.ipynb (see in embSneakers/code/ in the repository):
-- From the code, you can run classification and regression tasks by inputting the provided embedding datasets (three from our model, one from SOTA).
-- Kinds of inference tasks: 1) Classifications for Primary Category (8 classes), Consumer Type (5 classes), and Maximum Resale Premium (2 classes); 2) Regression for Maximum Resale Premium.
-- Kinds of inference model: 1) Multinomial Logistic Regression; 2) XGBoost; 3) Multi-layered Perceptron (MLP, a Neural-net method).
-
-C. crawling_source.ipynb (see in embSneakers/code/ in the repository):
+A. crawling_source.ipynb (see in embSneakers/code/ in the repository):
 - From the code, you can automatically download the sneaker images that have been sampled for the current work, via the links from the metadata: see the last column "imageUrl" in "val_sneakers_df.pkl."
 - i.e., One image per sneaker product is downloaded and used in the current study.
 - You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section is used only when crawling from the scratch.
+
+B. sneaker_embedding_masked_three_heads.ipynb (see in embSneakers/code/ in the repository):
+- You need to download the sneaker image samples from A first to construct embeddings from the given codes.
+- Otherwise, please refer to the codes to understand how the embeddings are constructed in details.
+
+C. classification_and_regression.ipynb (see in embSneakers/code/ in the repository):
+- From the code, you can run classification and regression tasks by inputting the provided embedding datasets (three from our model, one from SOTA).
+- Kinds of inference tasks: 1) Classifications for Primary Category (8 classes), Consumer Type (5 classes), and Maximum Resale Premium (2 classes); 2) Regression for Maximum Resale Premium.
+- Kinds of inference model: 1) Multinomial Logistic Regression; 2) XGBoost; 3) Multi-layered Perceptron (MLP, a Neural-net method).
 ```
 
 #### 4. Additional Results
