@@ -66,7 +66,7 @@ A. crawling_source.ipynb (see in embSneakers/code/ in the repository):
 - You only need to run "Crawling by imageUrl" section if you properly download "val_sneakers_df.pkl"; "RAW Crawling source (Using Selenium, Chromdriver)" section is used only when crawling from the scratch.
 
 B. sneaker_embedding_masked_three_heads.ipynb (see in embSneakers/code/ in the repository):
-- You need to download the sneaker image samples from A first to construct embeddings from the given codes.
+- You need to download the sneaker image samples from A. first to construct embeddings from the given codes.
 - Otherwise, please refer to the codes to understand how the embeddings are constructed in details.
 
 C. classification_and_regression.ipynb (see in embSneakers/code/ in the repository):
