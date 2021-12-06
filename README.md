@@ -38,6 +38,10 @@ D. df_384_looc.csv:
 E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
 - Features from the feature engineering (see the manuscript for more detailed description)
 - Columns: 1) 0: product ID; 2) 1 ~ 12: 12D color distribution parameters (mean, std) for RGB, HSV; 3) 13 ~ 19: 7D color entropy features for RGB, HSV, Grayscale; 4) 20 ~ 24: 5D image segmentation features; 5) 25 ~ 408: 384D color histogram of 128 bins for RGB; 6) 409 ~ 508: 100D metadata features
+
+F. val_sneakers_df.pkl:
+- Metadata crawled from StockX.com.
+- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features including product name, retail price, colorway, release date, primary category, consumer type, and so on.
 ```
 
 <img src="./source/sneaker_embedding.jpg">
