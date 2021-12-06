@@ -41,7 +41,7 @@ E. total_df_RGBHSV_ent_seg_rgbHistBin128_meta.pkl:
 
 F. val_sneakers_df.pkl:
 - Metadata crawled from StockX.com.
-- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on.
+- Columns: 1) 0: pid (product ID), you can crawl the same sneaker images as we did by using this ID; 2) 1 ~ 100: a total of 100 metadata features, e.g., product name, retail price, colorway, release date, primary category, consumer type, and so on
 ```
 
 <img src="./source/sneaker_embedding.jpg">
