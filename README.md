@@ -97,9 +97,8 @@ Figure 4. Temporal sneaker design patterns by brand via the embeddings. (a) Colo
 (the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 <br/><br/>
 
-We will disclose our contact information once the review period of WWW 2022 is ended.
+We will disclose our contact information once the review period of WWW 2022 is over.
 <br>
-
 
 <End of Document>
 
