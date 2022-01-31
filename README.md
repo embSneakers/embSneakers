@@ -1,6 +1,9 @@
 # The Sneakers Project
 
-Hi there 👋 This repository is for the paper _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ submittted to **The Web Conference (WWW) 2022**.
+Hi there 👋 This repository is for the [paper](https://drive.google.com/file/d/1nLAVImXQAsyM9DEW5IjGD3sWGpeO_CjZ/view) _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ ACCEPTED to **The Web Conference (WWW) 2022**.
+
+Please cite as:
+Park S, Song H, Han S, Weldegebriel B, Manovich L, Arielli E, Cha M. Using Web Data to Reveal 22-Year History of Sneaker Designs. In proc. of The Web Conference 2022 (WWW), 2022. doi:10.1145/3485447.3512017.
 
 ### Data Description [(Data Link)](https://bit.ly/3DvnC6p)
 
@@ -97,8 +100,7 @@ Figure 4. Temporal sneaker design patterns by brand via the embeddings. (a) Colo
 (the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 <br/><br/>
 
-We will disclose our contact information once the review period of WWW 2022 is over.
-<br>
+Should you have any questions or comments, please contact us at the following email address: shaun01.park@gmail.com.<br>
 
 <End of Document>
 
