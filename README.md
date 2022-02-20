@@ -106,7 +106,7 @@ Regarding the color and shape embeddings (Figure 4(a) and (b)), we sampled a tot
 (a) Three bins (from left to right, high, mid, and low, respectively) for the color embedding.<br>
 <img src="./source/shape(color_invariant)_high.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/shape(color_invariant)_mid.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/shape(color_invariant)_low.jpg" style="width: 200px; height:auto;"><br>
 (b) Three bins (from left to right, high, mid, and low, respectively) for the shape embedding.<br>
-Figure 5. 16 sample sneaker images for each Sneaker Design Index bin for the color and shape embeddings.<br>
+Figure 5. 16 sample sneaker images for each Sneaker Design Index bin for the color and shape embeddings.<br><br>
 
 Should you have any questions or comments, please contact us at the following email address: shaun01.park@gmail.com.<br>
 
