@@ -100,7 +100,7 @@ Figure 4. Temporal sneaker design patterns by brand via the embeddings. (a) Colo
 (the index values on y-axis were normalized by min-max scaling); (b) Shape embedding; (c) Combined embedding.
 <br/><br/>
 
-Regarding the color and shape embeddings (Figure 4(a) and (b)), we sampled a total of 16 sneaker images (top left is the mean value and the rest are the closest 15 neighbors) for three bins, respectively, as shown in Figure 5. The bins are high, mid, and low, respectively, where they are binned based on the Sneaker Design Index values.
+Regarding the temporal sneaker design patterns for the color and shape embeddings (Figure 4(a) and (b)), we sampled a total of 16 sneaker images (top left is the mean value and the rest are the closest 15 neighbors) for three bins, respectively, as shown in Figure 5. The bins are high, mid, and low, respectively, where they are binned based on the Sneaker Design Index values.
 
 <img src="./source/color(shape_invariant)_high.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/color(shape_invariant)_mid.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/color(shape_invariant)_low.jpg" style="width: 200px; height:auto;"><br>
 (a) Three bins (from left to right, high, mid, and low, respectively) for the color embedding.<br>
