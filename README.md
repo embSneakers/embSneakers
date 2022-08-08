@@ -111,15 +111,13 @@ Figure 5. 16 sample sneaker images for each Sneaker Design Index bin for the col
 
 #### 5. Accepted for an award of AI × ART Contest 2021
 
-"The sneakers universe" was accepted for the third prize of 'AI × ART Contest 2021.'
+"The sneakers universe" was accepted for the third prize of 'AI × ART Contest 2021' held by The National Science Museum in South Korea.
 
 <img src="./source/the-sneakers-universe_final.jpg">
 Figure 6. "the sneakers universe." Berhane Weldegebriel, Sungkyu (Shaun) Park, Sungwon Han, Lev Manovich, and Meeyoung Cha.
 <br/><br/>
 
-A work created using artificial intelligence by the Data Science Group in IBS was selected in the 'Artificial Intelligence and Art (AI × ART) 2021' contest. The National Science Museum in South Korea selected and announced 16 winners of the AI × ART contest on 17 December 2021.
-
-The National Science Museum held this contest to expand and popularize the AI creative field. A total of 130 works, including paintings, music, and media art, were submitted, and 8 students and 9 general candidates were selected as finalists.
+A work created using artificial intelligence by the Data Science Group in IBS was selected in the 'Artificial Intelligence and Art (AI × ART) 2021' contest. The National Science Museum in South Korea selected and announced 16 winners of the AI × ART contest on 17 December 2021. The National Science Museum held this contest to expand and popularize the AI creative field. A total of 130 works, including paintings, music, and media art, were submitted, and 8 students and 9 general candidates were selected as finalists.
 
 The data science group team, led by Senior Researcher Sungkyu (Shanu) Park, submitted and won the prize, "The sneakers universe," a work that shows the evolution of sneakers at a glance. From StockX.com, the world's No. 1 sneaker resell platform, the team analyzed images of 23,492 pairs of sneakers sold from 1999 to 2020. Design information was extracted using contrastive learning, one of the recent deep learning technologies, and the extracted information was arranged in a two-dimensional space to depict the evolution of sneakers.
 
