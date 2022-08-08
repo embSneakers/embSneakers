@@ -1,6 +1,7 @@
 # The Sneakers Project
 
-Hi there 👋 This repository is for the [paper](https://drive.google.com/file/d/1nLAVImXQAsyM9DEW5IjGD3sWGpeO_CjZ/view) _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ ACCEPTED to **The Web Conference (WWW) 2022**.
+Hi there 👋 This repository is for the [paper](https://drive.google.com/file/d/1nLAVImXQAsyM9DEW5IjGD3sWGpeO_CjZ/view) _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ ACCEPTED to **ACM The Web Conference (WWW) 2022**.
+[News] This paper was one of the BEST PAPER CANDIDATES (**top 3.41%** among the accepted papers)!
 
 Please cite as:
 Park S, Song H, Han S, Weldegebriel B, Manovich L, Arielli E, Cha M. Using Web Data to Reveal 22-Year History of Sneaker Designs. In proc. of The Web Conference 2022 (WWW), 2022. doi:10.1145/3485447.3512017.
@@ -107,6 +108,22 @@ Regarding the temporal sneaker design patterns for the color and shape embedding
 <img src="./source/shape(color_invariant)_high.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/shape(color_invariant)_mid.jpg" style="width: 200px; height:auto;"> &nbsp; &nbsp; <img src="./source/shape(color_invariant)_low.jpg" style="width: 200px; height:auto;"><br>
 (b) Three bins (from left to right, high, mid, and low, respectively) for the shape embedding.<br>
 Figure 5. 16 sample sneaker images for each Sneaker Design Index bin for the color and shape embeddings.<br><br>
+
+#### 5. Accepted for an award of AI × ART Contest 2021
+
+"The sneakers universe" was accepted for the third prize of 'AI × ART Contest 2021.'
+
+<img src="./source/the-sneakers-universe_final.jpg">
+Figure 6. "the sneakers universe." Berhane Weldegebriel, Sungkyu (Shaun) Park, Sungwon Han, Lev Manovich, and Meeyoung Cha.
+<br/><br/>
+
+A work created using artificial intelligence by the Data Science Group in IBS was selected in the 'Artificial Intelligence and Art (AI × ART) 2021' contest. The National Science Museum in South Korea selected and announced 16 winners of the AI × ART contest on 17 December 2021.
+
+The National Science Museum held this contest to expand and popularize the AI creative field. A total of 130 works, including paintings, music, and media art, were submitted, and 8 students and 9 general candidates were selected as finalists.
+
+The data science group team, led by Senior Researcher Sungkyu (Shanu) Park, submitted and won the prize, "The sneakers universe," a work that shows the evolution of sneakers at a glance. From StockX.com, the world's No. 1 sneaker resell platform, the team analyzed images of 23,492 pairs of sneakers sold from 1999 to 2020. Design information was extracted using contrastive learning, one of the recent deep learning technologies, and the extracted information was arranged in a two-dimensional space to depict the evolution of sneakers.
+
+Senior Researcher Park said, "In the past, achromatic colors were predominant because sneakers were viewed as a simple means of walking, but over time, the colors of sneakers have changed. Through the color change of sneakers over the past 20 years in the work, we can see the social change in which individuals freely express their individuality and popular culture is diversified." <br>
 
 Should you have any questions or comments, please contact us at the following email address: shaun01.park@gmail.com.<br>
 
