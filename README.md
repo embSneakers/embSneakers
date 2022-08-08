@@ -3,7 +3,7 @@
 Hi there 👋 This repository is for the [paper](https://drive.google.com/file/d/1nLAVImXQAsyM9DEW5IjGD3sWGpeO_CjZ/view) _"Using Web Data to Reveal 22-Year History of Sneaker Designs"_ ACCEPTED to **ACM The Web Conference (WWW) 2022**. <br>
 [News] This paper was one of the **BEST PAPER CANDIDATES** (**top 3.41%** among the accepted papers)!
 
-Please cite as:
+[Please cite as]
 Park S, Song H, Han S, Weldegebriel B, Manovich L, Arielli E, Cha M. Using Web Data to Reveal 22-Year History of Sneaker Designs. In proc. of The Web Conference 2022 (WWW), 2022. doi:10.1145/3485447.3512017.
 
 ### Data Description [(Data Link)](https://bit.ly/3DvnC6p)
