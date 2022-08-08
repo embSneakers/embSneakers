@@ -113,7 +113,7 @@ Figure 5. 16 sample sneaker images for each Sneaker Design Index bin for the col
 
 "The sneakers universe" was accepted for the third prize of 'AI × ART Contest 2021' held by The National Science Museum in South Korea.
 
-<img src="./source/the-sneakers-universe_final.jpg">
+<img src="./source/the-sneakers-universe_final.jpg" style="width: 500px; height:auto;">
 Figure 6. "the sneakers universe." Berhane Weldegebriel, Sungkyu (Shaun) Park, Sungwon Han, Lev Manovich, and Meeyoung Cha.
 <br/><br/>
 
